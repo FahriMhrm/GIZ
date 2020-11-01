@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #e5e5e5;
+}
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.login-form form{
+    width: 400px;
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    padding: 40px 25px 25px 25px;
+    border-radius: 20px;
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+}
+
+.login-form form h1{
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    color: #5068E2;
+}
+.login-form form h1 span{
+    color: #FF000F;
+    font-weight: 700;
+}
+
+.login-form form .btn{
+    width: 100px;
+}
+
+.login-form form input{
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75), inset 5px 4px 6px rgba(166, 180, 200, 0.65);
+}
+
+.login-form form .submit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-form form .submit p a{
+    color: #5068E2;
+    font-size: 14px;
+    text-decoration-line: none;
+}

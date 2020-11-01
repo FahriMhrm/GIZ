@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+
+nav .navbar-brand{
+    color: #FF000F !important;
+    font-family: 'Spartan', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+nav .collapse input{
+    box-shadow: inset -5px -5px 15px rgba(255, 255, 255, 0.75), inset 5px 4px 6px rgba(166, 180, 200, 0.65);
+    border-radius: 40px;
+}
+
+nav .collapse button{
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    border-radius: 40px;
+}
+
+.side-nav{
+    width: 150px;
+    height: 500px;
+    border-radius: 0 40px 40px 0;
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    padding: 30px 15px;
+}
+
+.side-nav ul li{
+    margin: 30px 0;
+    list-style: none;
+}
+
+.side-nav ul li a{
+    text-decoration-line: none;
+    color: #454545;
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.side-nav ul li a:hover{
+    color: #4CE0E9;
+}
+
+.dashboard-display{
+    display: flex;
+}
+
+.main .card-display{
+    padding:0 20px;
+}
+
+.main .card{
+    border-radius: 20px;
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    border: none;
+}
+
+.main .card .card-body .card-text{
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+    color: #454545;
+    font-weight: bold;
+}
+.main .card .card-body p{
+    font-size: 16px;
+    font-family: 'Spartan', sans-serif;
+    color: #5c5b5b;
+}
+
+.main .chart-display{
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.main .chart-display #myChart{
+    border-radius: 20px;
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    border: none;
+    padding: 20px;
+}
+
+.main .chart-display #myChart2{
+    border-radius: 20px;
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    border: none;
+    padding: 20px;
+}
+
+.main .card-counter{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.main .card-counter .card p{
+    font-size: 20px;
+    font-family: 'Spartan', sans-serif;
+    color: #454545;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main .card-counter .card .card-main-text{
+    font-size: 24px;
+    color: #5c5b5b;
+}
+
+footer{
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 24px rgba(166, 180, 200, 0.7);
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+}
+footer p{
+    color: #333399;
+}
